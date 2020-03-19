@@ -80,9 +80,7 @@ object Game: Canvas(), Runnable, KeyListener {
         }
     }
 
-    override fun keyTyped(p0: KeyEvent?) {
-        TODO("Not yet implemented")
-    }
+    override fun keyTyped(p0: KeyEvent?) { }
 
     override fun keyPressed(e: KeyEvent?) {
         if (e?.keyCode == KeyEvent.VK_RIGHT) {
